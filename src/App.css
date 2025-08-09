@@ -1,0 +1,5 @@
+:root {
+  color: rgba(17, 17, 17, 0.87);
+  background: #2D59BA;
+  background: linear-gradient(180deg, rgba(45, 89, 186, 1) 0%, rgba(117, 193, 250, 1) 100%);
+}
