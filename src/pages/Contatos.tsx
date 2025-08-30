@@ -65,10 +65,10 @@ function Contatos() {
                     {item.icon}
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-white mb-3">
+                    <h3 className="text-2xl font-bold text-[#41404E] mb-3">
                       {item.label}
                     </h3>
-                    <p className="text-lg text-white/80 group-hover:text-white transition-colors">
+                    <p className="text-lg text-[#41404E]/80 group-hover:text-[#41404E] transition-colors">
                       {item.value}
                     </p>
                   </div>

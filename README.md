@@ -1,69 +1,67 @@
-# React + TypeScript + Vite
+# Portfólio de Evelynn Doescher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um portfólio pessoal desenvolvido com React, TypeScript e Vite. Ele apresenta uma coleção de projetos, habilidades e informações de contato.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca para construção de interfaces de usuário.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
+- **Vite**: Ferramenta de construção rápida para projetos modernos.
+- **Tailwind CSS**: Framework CSS para estilização.
+- **Bootstrap**: Biblioteca de componentes para design responsivo.
+- **Material UI**: Conjunto de componentes React que implementam o Material Design.
 
-## Expanding the ESLint configuration
+## Instalação
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Para rodar este projeto localmente, siga os passos abaixo:
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/evedoescher/EveDoescher-portfolio.git
+   ```
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd EveDoescher-portfolio
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+5. Acesse o projeto em seu navegador em `http://localhost:3000`.
+
+## Scripts
+
+- `dev`: Inicia o servidor de desenvolvimento.
+- `build`: Compila o projeto para produção.
+- `lint`: Executa o linter para verificar a qualidade do código.
+- `preview`: Visualiza a versão de produção localmente.
+- `deploy`: Publica o projeto no GitHub Pages.
+
+## Estrutura do Projeto
+
+```
+EveDoescher-portfolio/
+├── public/               # Arquivos públicos
+├── src/                  # Código-fonte do projeto
+│   ├── components/       # Componentes reutilizáveis
+│   ├── pages/           # Páginas do portfólio
+│   └── assets/           # Imagens e outros ativos
+├── package.json          # Dependências e scripts do projeto
+└── README.md             # Documentação do projeto
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Contribuição
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou relatar problemas.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Licença
+
+Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.

@@ -4,9 +4,9 @@ import { FaPencilRuler } from "react-icons/fa";
 function Projetos() {
   return (
     <>
-      <section className="min-h-screen flex items-center justify-center py-12 px-4">
-        <div className="w-full  mx-auto">
-          <div className="text-center mb-8">
+      <section className="min-h-screen flex items-center justify-center py-8 sm:py-12 px-4">
+        <div className="w-full mx-auto max-w-8xl">
+          <div className="text-center mb-6 sm:mb-8">
             <div className="inline-flex items-center justify-center w-24 h-24 rounded-full mb-6 shadow-lg bg-[#2a4a8c]">
               <FaPencilRuler className="text-4xl text-white" />
             </div>
@@ -15,7 +15,7 @@ function Projetos() {
             </h1>
           </div>
           <div className="flex justify-center">
-            <div className="w-full ">
+            <div className="w-full">
               <Carousel_projects />
             </div>
           </div>
