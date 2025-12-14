@@ -1,4 +1,5 @@
 import DarkModeToggle from './DarkModeToggle';
+import ResumeDownload from './ResumeDownload';
 
 export default function Header() {
   const scrollToSection = (id: string) => {
@@ -40,7 +41,10 @@ export default function Header() {
             </button>
           </nav>
 
-          <DarkModeToggle />
+          <div className="flex items-center space-x-2">
+            <ResumeDownload />
+            <DarkModeToggle />
+          </div>
         </div>
       </div>
     </header>
