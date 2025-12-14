@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail } from 'lucide-react';
+import ResumeDownload from './ResumeDownload';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -44,6 +45,9 @@ export default function Footer() {
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
+              </a>
+              <a>
+                <ResumeDownload />
               </a>
           
             </div>

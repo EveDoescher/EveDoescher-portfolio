@@ -5,19 +5,11 @@ export default function ResumeDownload() {
     <a
       href= "Curriculo_Evelynn_Dev.pdf"
       download
-      className="inline-flex items-center 
-                 px-3 py-1.5 border border-zinc-300 dark:border-zinc-700 
-                 text-sm font-medium rounded-lg 
-                 text-zinc-700 dark:text-zinc-300 
-                 bg-zinc-100 dark:bg-zinc-800 
-                 hover:bg-zinc-200 dark:hover:bg-zinc-700 
-                 transition-colors duration-200 shadow-sm
-                 focus:outline-none focus:ring-2 focus:ring-offset-2 
-                 focus:ring-indigo-500 focus:ring-offset-zinc-50 dark:focus:ring-offset-zinc-900"
+      className="flex items-center gap-2 px-4 py-3 text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 border border-zinc-200 dark:border-zinc-800 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-all"
       aria-label="Baixar Currículo"
     >
-      <Download className="w-4 h-4 mr-1.5" />
-      Baixar Currículo
+      <Download className="w-5 h-5" />
+      <span className="font-medium">Baixar Currículo</span>
     </a>
   );
 }
