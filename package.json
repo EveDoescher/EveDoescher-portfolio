@@ -1,11 +1,15 @@
 {
-  "name": "shadcnui",
+  "name": "portifolio",
+  "version": "0.1.0",
   "type": "module",
+  "homepage": "https://github.com/EveDoescher/EveDoescher-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint --quiet ./src",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
