@@ -3,7 +3,7 @@ import { Download } from 'lucide-react';
 export default function ResumeDownload() {
   return (
     <a
-      href= "curriculo.pdf"
+      href= "Curriculo_Evelynn_Dev.pdf"
       download
       className="inline-flex items-center 
                  px-3 py-1.5 border border-zinc-300 dark:border-zinc-700 
