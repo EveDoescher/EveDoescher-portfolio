@@ -1,14 +1,19 @@
 export default function About() {
-  const skills = [
+ const skills = [
   'Java',
   'Spring Boot',
   'Python',
-  'MongoDB',
-  'MySQL',
   'RabbitMQ',
+  'APIs REST',
+  'MySQL',
+  'MongoDB',
+  'SQLAlchemy',
   'Docker',
+  'Git',
   'TypeScript',
+  'JavaScript',
   'React.js',
+  'Vue.js',
   'Tailwind CSS',
 ];
 
@@ -22,13 +27,16 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-zinc-600 dark:text-zinc-400 leading-relaxed">
               <p>
-                Minha trajetória técnica começou em 2019 com o curso Técnico em Informática para internet (Etec),
-                onde consolidei conhecimentos em desenvolvimento de software e UI/UX. Atualmente, aprofundo essa base
-                na graduação em Análise e Desenvolvimento de Sistemas (UNIP), focando em arquitetura de software e algoritmos.
+                Minha jornada no desenvolvimento começou em 2019, quando descobri que código é mais do que sintaxe 
+                é resolver problemas reais. Do técnico em Informática para Internet na Etec até a graduação em 
+                Análise e Desenvolvimento de Sistemas na UNIP, cada projeto me ensinou que construir software confiável 
+                exige tanto domínio técnico quanto visão de impacto.
               </p>
               <p>
-                Com foco em Java e Spring Boot, aplicando boas práticas acadêmicas em projetos reais de alta performance.
-                Acredito que a combinação entre estudo contínuo e código limpo é a chave para criar soluções digitais que fazem a diferença.
+                Hoje me especializo em backend com Java e Spring Boot, fascinada por como sistemas distribuídos 
+                conversam entre si e se mantêm resilientes mesmo sob pressão. Busco oportunidades como estagiária 
+                ou júnior onde possa contribuir com código bem pensado, aprender com profissionais experientes 
+                e evoluir construindo aplicações que realmente importam para quem as usa.
               </p>
             </div>
           </div>
@@ -55,14 +63,6 @@ export default function About() {
                 </h4>
                 <p className="text-zinc-600 dark:text-zinc-400">
                   Limeira - SP, Brasil.
-                </p>
-              </div>
-              <div className="space-y-2">
-                <h4 className="text-sm font-semibold text-zinc-900 dark:text-zinc-50 uppercase tracking-wide">
-                  Disponibilidade
-                </h4>
-                <p className="text-zinc-600 dark:text-zinc-400">
-                  Aberta para novos projetos.
                 </p>
               </div>
             </div>
